@@ -12,19 +12,21 @@
 /* betty style doc for function main goes there */
 int main(void)
 {
-	int n;
+	int n, u;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	if (n > 0)
+	u = n % 10;
+	printf("Last digit of %d is %d and is ", n, u);
+	if (u > 5)
 	{
-		printf("%d is positive", n);
-	} else if (n < 0)
+		printf("greater than 5");
+	} else if (u == 0)
 	{
-		printf("%d is negative", n);
-	} else 
+		printf("0");
+	} else if (u < 6)
 	{
-		printf("%d is zero", n);
+		printf("less than 6 and not 0");
 	}
 	printf("\n");
 	/* your code goes there */
