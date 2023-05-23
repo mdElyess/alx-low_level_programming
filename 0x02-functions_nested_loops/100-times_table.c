@@ -2,6 +2,7 @@
 
 /**
  * print_times_table - prints the n times table
+ * @n: an integer
  **/
 
 void print_times_table(int n)
@@ -27,16 +28,14 @@ void print_times_table(int n)
 					_putchar(' ');
 					_putchar(' ');
 					_putchar('0' + r);
-				}
-				else if (r >= 10 && r < 100)
+				} else if (r >= 10 && r < 100)
 				{
 					_putchar(',');
 					_putchar(' ');
 					_putchar(' ');
 					_putchar('0' + (r / 10));
 					_putchar('0' + (r % 10));
-				}
-				else if (r >= 100)
+				} else if (r >= 100)
 				{
 					_putchar(',');
 					_putchar(' ');
