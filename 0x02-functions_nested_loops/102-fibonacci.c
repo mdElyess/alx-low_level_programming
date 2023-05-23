@@ -11,19 +11,12 @@ int main(void)
 
 	nb1 = 0;
 	nb2 = 1;
-	for (i = 0; i < 50; i++)
+	for (i = 2; i < 50; i++)
 	{
-		if (i == 0)
-			printf("0, ");
-		if (i == 1)
-			printf("1, ");
-		else
-		{
-			aux = nb2;
-			nb2 += nb1;
-			nb1 = aux;
-			printf("%ld, ", nb2);
-		}
+		aux = nb2;
+		nb2 += nb1;
+		nb1 = aux;
+		printf("%ld, ", nb2);
 	}
 	aux = nb2;
 	nb2 += nb1;
