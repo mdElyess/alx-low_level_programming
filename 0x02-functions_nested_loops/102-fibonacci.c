@@ -7,7 +7,7 @@
 
 int main(void)
 {
-	int i, nb1, nb2, aux;
+	long int i, nb1, nb2, aux;
 
 	nb1 = 0;
 	nb2 = 1;
@@ -22,11 +22,11 @@ int main(void)
 			aux = nb2;
 			nb2 += nb1;
 			nb1 = aux;
-			printf("%d, ", nb2);
+			printf("%ld, ", nb2);
 		}
 	}
 	aux = nb2;
 	nb2 += nb1;
-	printf("%d\n", nb2);
+	printf("%ld\n", nb2);
 	return (0);
 }
