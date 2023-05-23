@@ -1,6 +1,6 @@
 # 0x02. C - Functions, nested loops
 
-## Tasks:
+## Tasks: :zap:
 ---
 
 * 0-putchar.c
