@@ -8,11 +8,12 @@
 int main(void)
 {
 	char ch[] = "_putchar";
+	int i;
 
-	for (int i = 0; ch[i] != '\0'; i++)
+	for (i = 0; ch[i] != '\0'; i++)
 	{
 		_putchar(ch[i]);
 	}
-	-putchar('\n');
+	_putchar('\n');
 	return (0);
 }
