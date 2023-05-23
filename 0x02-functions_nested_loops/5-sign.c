@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _isalpha - check if c is an alphabet
+ * print_sign - check if c is an alphabet
  *
  * @n: a signed number
  *
