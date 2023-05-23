@@ -3,9 +3,9 @@
 ## Tasks: :zap:
 ---
 
-* 0-putchar.c
+* [0-putchar.c](./0-putchar.c): a program that prints _putchar, followed by a new line.
 
-* 1-alphabet.c
+* [1-alphabet.c](./1-alphabet.c): a function that prints the alphabet, in lowercase, followed by a new line. using _putchar
 
 * 2-print_alphabet_x10.c
 
