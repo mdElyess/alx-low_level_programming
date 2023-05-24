@@ -20,6 +20,6 @@ int main(void)
 	}
 	aux = nb2;
 	nb2 += nb1;
-	printf("%lu\n", sum);
+	printf("%lu\n", nb2);
 	return (0);
 }
