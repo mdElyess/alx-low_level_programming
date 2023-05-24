@@ -2,9 +2,9 @@
 
 ## Tasks: :zap:
 ---
-* main.h
+* [main.h](./main.h): containes all functions and prototypes
 
-* 0-main.c
+* [0-main.c](./0-main.c): test postitive_or_negative() function
 
 * 1-main.c
 
