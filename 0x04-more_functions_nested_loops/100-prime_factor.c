@@ -13,13 +13,13 @@ int main(void)
 
 	while(div < num)
 	{
-		if (num % divisor == 0)
+		if (num % div == 0)
 		{
-			num /= divisor;
+			num /= div;
 			divisor = 2;
 		}
 		else
-			divisor++;
+			div++;
 	}
 	printf("%lu\n", num);
 	return (0);
