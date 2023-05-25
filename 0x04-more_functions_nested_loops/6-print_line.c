@@ -2,6 +2,7 @@
 
 /**
  * print_line - prints '_' n times
+ * @n: number of _ in the line
  */
 
 void print_line(int n)
