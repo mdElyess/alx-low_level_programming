@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- * swap_int - returns the length of a string.
+ * _strlen - returns the length of a string.
  * @s: given String
+ * Return: retrun the length of the given string
  */
 
 int _strlen(char *s)
