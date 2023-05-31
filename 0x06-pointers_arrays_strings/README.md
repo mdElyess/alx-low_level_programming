@@ -4,26 +4,28 @@
 ---
 * [main.h](./main.h): containes all functions and prototypes
 
-* [0-reset_to_98.c](./0-reset_to_98.c): takes a pointer to an int as parameter and updates the value it points to to 98.
+* [0-strcat.c](./0-strcat.c):  concatenates two strings.
 
-* [1-swap.c](./1-swap.c): swaps the values of two integers.
+* [1-strncat.c](./1-strncat.c): concatenates two strings.
 
-* [2-strlen.c](./2-strlen.c): returns the length of a string.
+* [2-strncpy.c](./2-strncpy.c): copies a string.
 
-* [3-puts.c](./3-puts.c): prints a string.
+* [3-strcmp.c](./3-strcmp.c): compares two strings.
 
-* [4-print_rev.c](./4-print_rev.c): prints a string, in reverse.
+* [4-rev_array.c](./4-rev_array.c): reverses the content of an array of integers.
 
-* [5-rev_string.c](./5-rev_string.c): reverses a string.
+* [5-string_toupper.c](./5-string_toupper.c): changes all lowercase letters of a string to uppercase.
 
-* [6-puts2.c](./6-puts2.c): prints every other character of a string.
+* [6-cap_string.c](./6-cap_string.c): capitalizes all words of a string.
 
-* [7-puts_half.c](./7-puts_half.c): prints half of a string.
-
-* [8-print_array.c](./8-print_array.c): prints n elements of an array of integers.
-
-* [9-strcpy.c](./9-strcpy.c): copies a string to the buffer
+* [7-leet.c](./7-leet.c): that encodes a string into 1337.
 ---
-* [100-atoi.c](./100-atoi.c): convert a string to an integer.
+* [100-rot13.c](./100-rot13.c): encodes a string using rot13.
 
-* [101-keygen.c](./101-keygen.c): generates random valid passwords for the program 101-crackme.
+* [101-print_number.c](./101-print_number.c): prints an integer.
+
+* [102-magic.c](./102-magic.c): prints a[2] = 98
+
+* [103-infinite_add.c](./103-infinite_add.c): adds two numbers.
+
+* [104-print_buffer.c](./104-print_buffer.c): prints a buffer.
